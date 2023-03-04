@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+body{
+	background: #e6ddde;
+}
+#logo {
+	border: solid gray;
+	width: 120px;
+	height: 72px;
+}
+
+.logodiv {
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid ;
+	border-color : none;
+	border-collapse: collapse;
+	padding: 5px 10px;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	padding: 5px 10px;
+	padding-bottom: 0px;S
+}
+
+
+#list {
+	float: right;
+	background-color: #e6ddde;
+	margin-right: 13%;
+	padding: 0px;
+	width: 1000px;
+	position: 10px;
+	
+}
+.btn{
+	margin-left: 0px;
+	float: inherit;
+	top: 10px;
+}
+#write_btn{
+	float: right;
+	margin-right: 200px;
+}
+#weather>aside{
+	width:200px;
+}
+
+.list_Call{
+	margin-top: 70px;
+	text-align: left;
+}
+.navbar-inverse {
+	height: 72px;
+	 background: #e6ddde;
+}
+
+
+.filter {
+	float: right;
+	margin-right: 400px;
+	width: 220px;
+	height: 30px;
+}
+
+.weatherTable {
+	float: left;
+	background-color: lime;
+}
+
+#weather {
+	float: left;
+	width: 200px;
+	margin-left: 40px;
+}
+.dropbtn {
+  background-color: #e6ddde;
+  padding: 16px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-image: url('resources/img/bell.png');
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+/* .show {
+	height: 30px;
+	width: 100%;
+	float: left;
+	margin-left: 300px;
+} */
+.show {
+	display: block;
+
+}
+#alarmTable{
+	width: 400px;
+	
+}
+#alarmTable>th{
+	width:250px;
+}
+header div.logo {
+   margin-top: 3.75rem;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   padding: 0;
+   margin: 0;
+   font-family: "DomaineText", Georgia, serif;
+   font-weight: normal;
+   line-height: 1.5;
+   color: #443235;
+   background: #e6ddde;
+   /* -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale; */
+}
+
+html, body {
+   font-size: 100%;
+   box-sizing: border-box;
+}
+
+header div.tagline {
+   margin-top: 0.0625rem;
+   font-family: "DomaineText", Georgia, serif;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 1.125rem;
+   line-height: 1.5;
+   letter-spacing: 0;
+   text-transform: none;
+   text-align: center;
+}
+
+header div.tagline a, header div.tagline a:hover, header div.tagline a:focus
+   {
+   color: #654a4e;
+}
+
+.logo img {
+   max-width: 15%;
+   height: auto;
+   -ms-interpolation-mode: bicubic;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+a {
+   color: #2e2c2c;
+   text-decoration: none;
+   line-height: inherit;
+   cursor: pointer;
+}
+
+/* .header {
+   border-top: 1px solid #916a70;
+   padding-top: 0.875rem;
+   padding-bottom: 0;
+} */
+
+
+/*****************************************************/
+.my {
+   float: left;
+   width: 1100px;
+}
+
+.my img {
+   max-width: 33%;
+   height: auto;
+   -ms-interpolation-mode: bicubic;
+   display: inline-block;
+   vertical-align: middle;
+   padding: 10px 0px 0px;
+   
+}
+
+/**************************************************/
+.profil {
+   position: absolute;
+   left: 1100px;
+   right: 0;
+   border-left: 1px solid #ddd;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.photo img {
+   height: 150px;
+   width: 150px;
+   border-radius: 70%;
+   
+}
+
+.photo button {
+   height: 150px;
+   width: 150px;
+   border-radius: 70%;
+}
+/****************************************************/
+
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 5px 10px;
+   
+}
+button {
+   margin: 5px;
+}
+
+.btn_area{
+   text-align: center;
+}
+
+input[type='text']{
+   width: 100%;
+}
+
+textarea {
+   resize: none;
+   width: 100%;
+   height: 150px;
+}
